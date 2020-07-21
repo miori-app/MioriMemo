@@ -14,6 +14,7 @@
 		3D683B3924C670300089BB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D683B3824C670300089BB19 /* Assets.xcassets */; };
 		3D683B3C24C670300089BB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D683B3A24C670300089BB19 /* LaunchScreen.storyboard */; };
 		3DD9B48C24C6D35F002BBAC6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9B48B24C6D35F002BBAC6 /* Model.swift */; };
+		3DD9B48E24C6D7B3002BBAC6 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9B48D24C6D7B3002BBAC6 /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3D683B3B24C670300089BB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D683B3D24C670300089BB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DD9B48B24C6D35F002BBAC6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3DD9B48D24C6D7B3002BBAC6 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3D683B3A24C670300089BB19 /* LaunchScreen.storyboard */,
 				3D683B3D24C670300089BB19 /* Info.plist */,
 				3D683B3524C6702E0089BB19 /* MioriMemo.xcdatamodeld */,
+				3DD9B48D24C6D7B3002BBAC6 /* MemoListTableViewController.swift */,
 			);
 			path = MioriMemo;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				3D683B3724C6702E0089BB19 /* MioriMemo.xcdatamodeld in Sources */,
 				3D683B2D24C6702E0089BB19 /* AppDelegate.swift in Sources */,
+				3DD9B48E24C6D7B3002BBAC6 /* MemoListTableViewController.swift in Sources */,
 				3D683B2F24C6702E0089BB19 /* SceneDelegate.swift in Sources */,
 				3DD9B48C24C6D35F002BBAC6 /* Model.swift in Sources */,
 			);
